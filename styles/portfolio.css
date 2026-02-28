@@ -237,10 +237,36 @@ footer {
   color: #ffffff;
   font-weight: 500;
   font-size: 20px;
+  display: flex;
+  
 }
 .social a {
   color: whitesmoke;
 }
+.social-facebook img{
+  width: 10px;
+  height: 15px;
+}
+.social-in img{
+  width: 10px;
+  height: 15px;
+  
+}
+.social-x img{
+  width: 10px;
+  height: 15px;
+}
+.social-2{
+  display: flex;       
+    align-items: center; 
+    gap: 5px;
+    flex-direction:column;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+
 /* subFooter */
 footer hr {
   margin-bottom: 30px;
