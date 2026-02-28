@@ -11,8 +11,9 @@ header{
     flex-direction: column;
     display: flex;
     margin-top: 100px;
-    padding: 50px;
+    padding: 50px 0;
     height: 550px;
+    min-height: 550px;
     
 }
 .container{
@@ -152,6 +153,7 @@ padding: 16px 120px;
   font-size: 16px;
   color: white;
   gap: 10px; 
+  
 
 
 }
@@ -280,6 +282,7 @@ footer hr {
     width: 96%;
     max-width: 576px;
     margin: 0 auto;
+    padding: 50px 0;
   }
 
   .logo {
@@ -336,9 +339,12 @@ footer hr {
   }
   .card-content {
     display: inline-block;
+    gap: 24px;
+    margin-top: 50px;
   }
   .card {
     justify-items: center;
+    padding: 24px;
   }
   .card img {
     height: 10%;
@@ -355,6 +361,7 @@ footer hr {
     flex-direction: column-reverse;
     margin: 50px 0;
     gap: 30px;
+    padding: 50px 0;
   }
   .brain-text {
     text-align: center;
