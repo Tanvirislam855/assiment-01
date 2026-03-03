@@ -53,6 +53,7 @@ padding: 8px 12px 8px 12px;
   background-color: #ffffff;
   padding: 9px 12px;
   border-radius: 20px;
+  
 
 }
 
@@ -81,14 +82,14 @@ padding: 16px 120px;
 }
 #banner .banner-contain h1{
     font-style: Medium;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 5px;
     margin-top: 5px;
 }
 #banner .banner-contain h2{
     
-    font-size: 72px;
+    font-size: 82px;
     font-weight: 700;
     line-height: 85px;
     text-align: center;
@@ -98,29 +99,34 @@ padding: 16px 120px;
 
 }
 #banner .banner-contain p{
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 34px;
     text-align: center;
     color:rgb(255 255 255 1);
     color: white;
-    margin-bottom: 30px;
+    margin-bottom:25px;
     max-width: 651px;
     margin: 0 auto;
+
+    
 }
 .btn-group {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
  .my-btn-2 {
     border-radius: 4px;
     color:#ffffff;
     gap: 15px;
-    padding: 12px 26px;
+    padding: 0px 26px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     font-size: 16px;
     background-color:#30b868;
@@ -145,17 +151,26 @@ padding: 16px 120px;
     font-weight: bolder;   
     color: #ffffff;   
     height: 52px;
+    vertical-align: middle;
                  
 }
 .btn-4{
    background-color: #30b868;
-  padding: 10px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   color: white;
   gap: 10px; 
-  vertical-align:middle;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.img{
+  width: 25px;
+  height: 25px;
 }
 .card-info h2 {
   margin-top: 80px;
@@ -315,7 +330,7 @@ footer hr {
   width: 100%;
 }
 
-@media screen and (max-width: 576px) {
+  @media screen and (max-width: 576px) { 
   /* shard styles */
   .container {
     width: 50%;
